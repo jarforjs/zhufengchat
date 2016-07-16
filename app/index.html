@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="zhufengchat">
+<html lang="en" ng-app="zfchat">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-珠峰聊天室
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">珠峰聊天室</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><img src="" alt=""></li>
+                <li>用户名</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container" ng-view>
+
+</div>
 </body>
 <script src="/lib/jquery/dist/jquery.js"></script>
 <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -16,4 +31,5 @@
 <script src="/lib/moment/locale/zh-cn.js"></script>
 <script src="/lib/angular-moment/angular-moment.js"></script>
 <script src="app.js"></script>
+<script src="/controller/LoginCtrl.js"></script>
 </html>
