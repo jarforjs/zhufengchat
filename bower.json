@@ -1,0 +1,23 @@
+{
+  "name": "zhufengchat",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "jarforjs <114571257@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jarforjs/zhufengchat",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-moment": "^0.10.3",
+    "angular-route": "^1.5.7",
+    "bootstrap": "^3.3.6"
+  }
+}
