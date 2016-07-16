@@ -11,10 +11,11 @@
         <div class="navbar-header">
             <a class="navbar-brand" href="#">珠峰聊天室</a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!-- class="collapse navbar-collapse"-->
+        <div ng-show="user" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><img src="" alt=""></li>
-                <li>用户名</li>
+                <li><img class="img-rounded" ng-src="{{user.avatar}}" alt=""></li>
+                <li><a href="#">{{user.email}}</a></li>
             </ul>
         </div>
     </div>
@@ -32,4 +33,5 @@
 <script src="/lib/angular-moment/angular-moment.js"></script>
 <script src="app.js"></script>
 <script src="/controller/LoginCtrl.js"></script>
+<script src="/controller/RoomsCtrl.js"></script>
 </html>

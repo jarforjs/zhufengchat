@@ -2,3 +2,7 @@ node_modules
 .idea
 lib
 bower_component
+app.js
+app/
+bower.json
+public/
